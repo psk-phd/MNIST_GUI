@@ -1,0 +1,7 @@
+__pycache__/
+data/
+spikingjelly/
+*.rar
+*.zip
+*.pth
+*.yml
