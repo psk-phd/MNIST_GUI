@@ -1,4 +1,5 @@
-An interactive handwritten digit (0-9) recognition GUI code utilizing spiking neural networks. Spiking neural networks utilize spike-trains instead of real numbers to transmit data, akin to how information is processed in the brain. In the demo, two windows open, one for character writing and another that shows an interactive display of how spikes are flowing in the network's last layer. Output probabilities are illustrated as 'dancing' histograms atop each output neuron corresponding to a digit between 0-9.  As the decision of the SNN gets more confident with time. one clear answer emerges. A video of the demo should make this clearer. 
+**Handwritten Digit Recognition using Spiking Neural Netowrks: An Interactive Demo
+**An interactive handwritten digit (0-9) recognition GUI code utilizing spiking neural networks. Spiking neural networks utilize spike-trains instead of real numbers to transmit data, akin to how information is processed in the brain. In the demo, two windows open, one for character writing and another that shows an interactive display of how spikes flow in the network's last layer. Output probabilities are illustrated as 'dancing' histograms atop each output neuron corresponding to a digit between 0-9.  As the decision of the SNN gets more confident with time. one clear answer emerges. A video of the demo should make this clearer. 
 
 https://github.com/user-attachments/assets/b6fa8c29-8beb-4620-b0e2-1693acb031d3
 
@@ -31,6 +32,6 @@ Two windows pop up as shown in the video. The black canvas takes digit input, an
 
 The input, in the form of handwritten digits, can either be provided using a mouse, or a commercially available graphic tablet like Wacom, which was used for the demo.
 
-To clear the canvas, click 'Clear' and write a new digit. The animation reruns. Please note you may need to restart the animation every hour and a half or so, because of the way the animation has been written. You can of course increase the max time further in 'Final_Gui_char_recog_SNN.py' by changing the numeral indicated in bold in the line animation.FuncAnimation(fig, update, frames=intperspike*(time_steps***150**), interval=100, blit=False, repeat=False).
+To clear the canvas, click 'Clear' and write a new digit. The animation then reruns, for a max of 100 timesteps. Please note you may need to restart the animation every hour and a half or so, because of the way the animation has been written. You can of course increase the max time further in 'Final_Gui_char_recog_SNN.py' by changing the numeral indicated in bold in the line animation.FuncAnimation(fig, update, frames=intperspike*(time_steps***150**), interval=100, blit=False, repeat=False).
 
 
