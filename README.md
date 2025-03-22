@@ -1,5 +1,6 @@
-**Handwritten Digit Recognition using Spiking Neural Netowrks: An Interactive Demo
-**An interactive handwritten digit (0-9) recognition GUI code utilizing spiking neural networks. Spiking neural networks utilize spike-trains instead of real numbers to transmit data, akin to how information is processed in the brain. In the demo, two windows open, one for character writing and another that shows an interactive display of how spikes flow in the network's last layer. Output probabilities are illustrated as 'dancing' histograms atop each output neuron corresponding to a digit between 0-9.  As the decision of the SNN gets more confident with time. one clear answer emerges. A video of the demo should make this clearer. 
+**Handwritten Digit Recognition using Spiking Neural Netowrks: An Interactive Demo**
+
+An interactive handwritten digit (0-9) recognition GUI code utilizing spiking neural networks. Spiking neural networks utilize spike-trains instead of real numbers to transmit data, akin to how information is processed in the brain. In the demo, two windows open, one for character writing and another that shows an interactive display of how spikes flow in the network's last layer. Output probabilities are illustrated as 'dancing' histograms atop each output neuron corresponding to a digit between 0-9.  As the decision of the SNN gets more confident with time. one clear answer emerges. A video of the demo should make this clearer. 
 
 https://github.com/user-attachments/assets/b6fa8c29-8beb-4620-b0e2-1693acb031d3
 
